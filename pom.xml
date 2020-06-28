@@ -25,7 +25,7 @@
         <dependency>
     <groupId>com.voidcitymc.plugins</groupId>
     <artifactId>SimplePolice</artifactId>
-    <version>2.2</version>
+    <version>3.0</version>
     <scope>system</scope>
     <systemPath>${project.basedir}/SimplePolice-2.2.jar</systemPath>
 </dependency>
