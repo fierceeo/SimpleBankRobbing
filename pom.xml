@@ -27,7 +27,7 @@
     <artifactId>SimplePolice</artifactId>
     <version>3.0</version>
     <scope>system</scope>
-    <systemPath>${project.basedir}/SimplePolice-2.2.jar</systemPath>
+    <systemPath>${project.basedir}/SimplePolice-3.0.jar</systemPath>
 </dependency>
 
 
