@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import com.voidcitymc.plugins.SimplePolice.worker;
+import com.voidcitymc.api.SimplePolice.SimplePoliceAPI;
 
 import net.craftersland.money.Money;
 
@@ -30,7 +30,8 @@ public class InteractEvent implements Listener {
            Location loc = new Location(Bukkit.getWorld(Main.getInstance().getConfig().getString("World")), Main.getInstance().getConfig().getInt("X"), Main.getInstance().getConfig().getInt("Y"), Main.getInstance().getConfig().getInt("Z"));
             if (event.getClickedBlock().getLocation().equals(loc) && event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
             //if (event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
-            	ArrayList<String> policeList = worker.ListPolice();
+            	SimplePoliceAPI api = (SimplePoliceAPI) Bukkit.getPluginManager().getPlugin("Simple Police");
+            	ArrayList<String> policeList = api.listPolice();
             	ArrayList<Player> playerList = new ArrayList<Player>();
             	
             	int i = 0;
