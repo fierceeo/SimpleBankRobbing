@@ -28,14 +28,12 @@
            <scope>provided</scope>
     </dependency>
     
-        <dependency>
-    <groupId>com.voidcitymc.plugins</groupId>
-    <artifactId>SimplePolice</artifactId>
-    <version>3.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/SimplePolice-3.0.jar</systemPath>
-</dependency>
 
+		<dependency>
+			<groupId>com.voidcity.SimplePolice-API</groupId>
+			<artifactId>SimplePolice-API</artifactId>
+			<version>3.1</version>
+		</dependency>
 
     <dependency>
     <groupId>net.craftersland</groupId>
