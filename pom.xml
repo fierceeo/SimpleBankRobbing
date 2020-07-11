@@ -10,7 +10,13 @@
         <id>spigot-repo</id>
         <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
-	
+
+
+    <repository>
+        <id>SimplePolice-API</id>
+        <url>https://raw.githubusercontent.com/ramdon-person/SimplePolice/master/SimplePolice-API/target/mvn-repo/</url>
+    </repository>
+
 </repositories>
 
 <dependencies>
