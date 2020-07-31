@@ -12,9 +12,8 @@
     </repository>
       
     <repository>
-       <id>github</id>
-       <name>GitHub ramdon-person Apache Maven Packages</name>
-       <url>https://maven.pkg.github.com/ramdon-person/SimplePolice</url>
+       <id>jitpack.io</id>
+       <url>https://jitpack.io</url>
     </repository>
       
 </repositories>
@@ -30,9 +29,9 @@
 
 
     <dependency>
-        <groupId>com.voidcity.SimplePolice-API.SimplePolice-API</groupId>
-        <artifactId>simplepolice-api</artifactId>
-        <version>3.2.2</version>
+	      <groupId>com.github.ramdon-person.SimplePolice</groupId>
+	      <artifactId>SimplePolice-API</artifactId>
+	      <version>3.2.2</version>
     </dependency>
 
 
