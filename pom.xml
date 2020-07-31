@@ -10,12 +10,6 @@
         <id>spigot-repo</id>
         <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
-
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-
 </repositories>
 
 <dependencies>
@@ -29,19 +23,19 @@
 
 
     <dependency>
-        <groupId>com.github.ramdon-person.SimplePolice</groupId>
-        <artifactId>SimplePolice-API</artifactId>
-        <version>3.2</version>
+        <groupId>com.voidcity.SimplePolice-API.SimplePolice-API</groupId>
+        <artifactId>simplepolice-api</artifactId>
+        <version>3.3</version>
     </dependency>
 
 
     <dependency>
-    <groupId>net.craftersland</groupId>
-    <artifactId>MysqlEconomyBank</artifactId>
-    <version>1.15.1</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/MysqlEconomyBank-v1.15.1.jar</systemPath>
-</dependency>
+      <groupId>net.craftersland</groupId>
+      <artifactId>MysqlEconomyBank</artifactId>
+      <version>1.15.1</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/MysqlEconomyBank-v1.15.1.jar</systemPath>
+    </dependency>
 
 
 
