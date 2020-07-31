@@ -16,7 +16,8 @@ public class Main extends JavaPlugin {
     	instance = this;
     	this.getServer().getPluginManager().registerEvents((Listener)new InteractEvent(), (Plugin)this);
     	
-    	this.getConfig().options().copyDefaults(true);
+        Metrics metrics = new Metrics(this, 6814);
+        this.getConfig().options().copyDefaults(true);
     	saveConfig();
     	
     }
