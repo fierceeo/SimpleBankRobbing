@@ -33,9 +33,8 @@ public class InteractEvent implements Listener {
 				Location loc = new Location(Bukkit.getWorld(Objects.requireNonNull(Main.getInstance().getConfig().getString("World"))), Main.getInstance().getConfig().getInt("X"), Main.getInstance().getConfig().getInt("Y"), Main.getInstance().getConfig().getInt("Z"));
 				if (event.getClickedBlock().getLocation().equals(loc) && event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
 					//if (event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
-					SimplePolice sp = ((SimplePolice) Bukkit.getPluginManager().getPlugin("Simple Police"));
-					if (sp.getApi() == null) System.out.println("Huge error!");
-					SimplePoliceAPI api = sp.getApi();
+
+					SimplePoliceAPI api = new com.voidcitymc.plugins.SimplePolice.SimplePoliceAPI();
 					ArrayList<String> policeList = api.listPolice();
 					ArrayList<Player> playerList = new ArrayList<Player>();
 
