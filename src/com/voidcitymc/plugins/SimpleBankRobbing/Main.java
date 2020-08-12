@@ -13,6 +13,7 @@ public class Main extends JavaPlugin {
     // Fired when plugin is first enabled
     @Override
     public void onEnable() {
+	    reloadConfig();
     	instance = this;
     	this.getServer().getPluginManager().registerEvents((Listener)new InteractEvent(), (Plugin)this);
     	
