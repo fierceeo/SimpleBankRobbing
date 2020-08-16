@@ -1,6 +1,5 @@
 package com.voidcitymc.plugins.SimpleBankRobbing;
 
-import com.voidcitymc.api.SimplePolice.SimplePolice;
 import com.voidcitymc.api.SimplePolice.SimplePoliceAPI;
 
 import org.bukkit.entity.Player;
@@ -34,7 +33,7 @@ public class InteractEvent implements Listener {
 				if (event.getClickedBlock().getLocation().equals(loc) && event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
 					//if (event.getClickedBlock().getType().equals(Material.PLAYER_HEAD)) {
 
-					SimplePoliceAPI api = new com.voidcitymc.plugins.SimplePolice.SimplePoliceAPI();
+					SimplePoliceAPI api = (SimplePoliceAPI) Bukkit.getPluginManager().getPlugin("Simple Police");
 					ArrayList<String> policeList = api.listPolice();
 					ArrayList<Player> playerList = new ArrayList<Player>();
 
