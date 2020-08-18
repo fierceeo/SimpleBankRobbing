@@ -35,12 +35,13 @@
     </dependency>
 
 
-	<dependency>
-	    <groupId>com.github.brunyman</groupId>
-	    <artifactId>EconomyBank</artifactId>
-	    <version>Tag</version>
-	</dependency>
-
+    <dependency>
+      <groupId>net.craftersland</groupId>
+      <artifactId>MysqlEconomyBank</artifactId>
+      <version>1.15.1</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/MysqlEconomyBank-v1.15.1.jar</systemPath>
+    </dependency>
 
 
 
