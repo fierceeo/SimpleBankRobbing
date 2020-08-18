@@ -2,5 +2,5 @@ name: SimpleBankRobbing
 main: com.voidcitymc.plugins.SimpleBankRobbing.Main
 api-version: 1.13
 author: ramdon_person
-version: 1.3
+version: 1.4
 depend: [SimplePolice, MysqlEconomyBank]
