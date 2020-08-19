@@ -22,7 +22,7 @@ import org.bukkit.Material;
 
 public class InteractEvent implements Listener {
 	private final CooldownManager cooldownManager = new CooldownManager();
-	@EventHandler
+	@EventHandler (priority = EventPriority.HIGHEST)
 	public void onInteract(final PlayerInteractEvent event) {
 
 
