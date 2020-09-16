@@ -38,9 +38,9 @@
     <dependency>
       <groupId>net.craftersland</groupId>
       <artifactId>MysqlEconomyBank</artifactId>
-      <version>1.15.1</version>
+      <version>1.16.1</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/MysqlEconomyBank-v1.15.1.jar</systemPath>
+      <systemPath>${project.basedir}/MysqlEconomyBank-v1.16.1.jar</systemPath>
     </dependency>
 
 
