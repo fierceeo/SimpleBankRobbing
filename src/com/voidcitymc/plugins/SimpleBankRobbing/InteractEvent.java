@@ -80,8 +80,8 @@ public class InteractEvent implements Listener {
 										pl.getMoneyDatabaseInterface().setBalance(players.get(i), (bal * 0.9));
 										stolenMoney = bal * 0.1 + stolenMoney;
 										players.get(i).sendMessage(ChatColor.RED + "A player has robbed the bank, you have lost $" + Math.round(bal * 0.1));
-										i++;
 									}
+									i++;
 								}
 
 
